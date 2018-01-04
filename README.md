@@ -1,1 +1,1 @@
-# LSTM-to-Predict-Cricketer-Performance
+# lstm_cricket
