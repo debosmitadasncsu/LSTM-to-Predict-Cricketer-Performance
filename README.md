@@ -17,9 +17,12 @@ __Dataset after feature generation __
 
 Previous Scores                           Prediction Column
 score 1 score 2 ... score 19              score 20
+
 score 2 score 3 ... score 20              score 21
+
                                                        
 ...
+
 score k-19 score k-18 ... score  k-1      score k
 
 
