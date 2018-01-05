@@ -16,14 +16,15 @@ As LSTMs is essentially a time series prediction, every element in the array is 
 __Dataset after feature generation __
 
 Previous Scores                           Prediction Column
-score 1 score 2 ... score 19              score 20
 
-score 2 score 3 ... score 20              score 21
+score 1 score 2 ... score 19<b></b><b></b><b></b>score 20
+
+score 2 score 3 ... score 20<b></b><b></b><b></b>score 21
 
                                                        
 ...
 
-score k-19 score k-18 ... score  k-1      score k
+score k-19 score k-18 ... score  k-1       score k
 
 
 This data is then divided into a test and train set with a 80-20 split. The training set is used to model the network. The LSTM network which has the following number  of variables per layer. [1,5,10,1]. Meaning, 1 input expanding to 5 variables and then 10, before converging to 1 as the output. Thus, there are 2 hidden layers.
